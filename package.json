@@ -1,10 +1,26 @@
 {
-  "name": "test",
-  "description": "World of Warcraft game and profile API audit for GoogleSheets.",
-  "dependencies": {
-    "@google/clasp": "^2.3.2",
-    "@types/google-apps-script": "^1.0.37",
-    "eslint": "^7.32.0",
-    "eslint-plugin-googleappsscript": "^1.0.4"
-  }
+    "name": "wowauditgooglesheet",
+    "version": "1.0.0",
+    "license": "GPL-3.0",
+    "description": "World of Warcraft game and profile API audit for GoogleSheets.",
+    "devDependencies": {
+        "@google/clasp": "^2.3.2",
+        "@types/google-apps-script": "^1.0.37",
+        "babel-eslint": "^10.1.0",
+        "eslint": "^7.32.0",
+        "eslint-config-custom-rules": "file:./ESLintRules",
+        "eslint-config-prettier": "^8.3.0",
+        "eslint-plugin-googleappsscript": "^1.0.4",
+        "prettier": "^2.3.2",
+        "prettier-eslint": "^13.0.0"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/Daniel942/WoWAuditGoogleSheets.git"
+    },
+    "author": "Daniel942",
+    "bugs": {
+        "url": "https://github.com/Daniel942/WoWAuditGoogleSheets/issues"
+    },
+    "homepage": "https://github.com/Daniel942/WoWAuditGoogleSheets#readme"
 }

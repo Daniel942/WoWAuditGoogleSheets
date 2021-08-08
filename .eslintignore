@@ -1,0 +1,8 @@
+node_modules
+ESLintRules
+package.json
+package-lock.json
+README.md
+.prettierrc.json
+.eslintrc.json
+.clasp.json

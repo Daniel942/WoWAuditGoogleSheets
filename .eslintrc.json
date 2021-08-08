@@ -1,0 +1,11 @@
+{
+    "env": {
+        "googleappsscript/googleappsscript": true
+    },
+    "parserOptions": {
+        "ecmaVersion": "latest"
+    },
+    "plugins": ["googleappsscript"],
+    "parser": "babel-eslint",
+    "extends": ["custom-rules", "prettier"]
+}

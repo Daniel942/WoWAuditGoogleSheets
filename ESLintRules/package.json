@@ -1,0 +1,12 @@
+{
+  "name": "eslint-config-custom-rules",
+  "version": "1.0.0",
+  "license": "MIT",
+  "description": "Custom ESLint rules.",
+  "devDependencies": {
+    "confusing-browser-globals": "^1.0.9",
+    "eslint-plugin-import": "^2.22.1"
+  },
+  "main": "index.js",
+  "author": "Daniel942"
+}
